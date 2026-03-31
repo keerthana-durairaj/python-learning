@@ -1,0 +1,33 @@
+list1=["skoda","ford","hyundai","toyota"]
+print(len(list1))
+print(type(list1))
+print(list1[0:2])
+list1[2]="BMW"
+print(list1)
+list1[3:5]="Audi","benz","Mitsubishi"
+print(list1)
+print(len(list1))
+list1.insert(4,"Chevy")
+print(list1)
+list1.append("Rollsroyce")
+print(list1)
+list2=["GMC","Cadillac"]
+list1.extend(list2)
+print(list1)
+list2.remove("Cadillac")
+print(list2)
+list3=("Cadillac","Kia","Mazda")
+list2.extend(list3)
+print(list2)
+list1.pop()
+print(list1)
+del list1[2]
+print(list1)
+list4=("Nissan","Dodge")
+print(list4)
+del list4
+list5=["Nissan","Dodge"]
+list5.clear()
+print(list5)
+list6=list5.copy()
+print(list6)

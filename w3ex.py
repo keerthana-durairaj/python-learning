@@ -3,6 +3,7 @@ a = ("""        World is Beautiful,
         God is with everyone.""")
 print(len(a))
 print('God'not in a)
+# if condition
 
 if "grateful" in a:
     print("Yes, grateful is present!")
